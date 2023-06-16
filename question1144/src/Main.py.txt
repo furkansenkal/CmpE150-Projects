@@ -1,0 +1,11 @@
+
+# DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+
+# DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+
+# converts the input string to list.
+lst = eval(input())
+print(sum_list(lst))
+

@@ -1,0 +1,96 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Quiz 9: <code>Recursive Summation of Nested Lists (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						In this quiz you are expected to calculate the summation of all integers in a list recursively. You will write the <code>sum_list(lst)</code> function which takes one parameter <code>lst</code> as a list and returns the summation of all integers in <code>lst</code> as an integer. 
+					</p>
+					<p>
+						The input list can be a nested list (the list can have multiple lists as elements). The lists can be empty. The lists only include integers and strings. You should only take the summation of integers and skip any string.
+					</p>
+					<p>
+						We have already provided you with the input part. <code>eval(input())</code> converts the input string to list. Please do not write the input part again.
+					</p>
+					<p>
+						Your code will be tested with 10 test inputs of 10 points each.
+						<ul>
+							<li>1 input will be a simple list (not nested) of integers.</li>
+							<li>2 inputs will be a simple list (not nested) of integers and strings.</li>
+							<li>5 inputs will be nested list of integers.</li>
+							<li>2 inputs will be nested list of integers and strings.</li>
+						</ul>
+					</p>
+					<p>
+						<b>Warning 1:</b> You are not allowed to use any kind of loops. Non-recursive implementations will be detected by manual inspection and get no points. For the purposes of this question, solving it iteratively and then calling another function recursively does <b>not</b> count as a recursive implementation.
+					</p>
+					<p>
+						<b>Warning 2:</b> You are not allowed to use global variables, imports and topics that haven't been covered this semester.
+					</p>
+
+					<b>Examples:</b> <br><br>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							[2,3,2,1,4]
+							</td>
+							<td style = "white-space: nowrap">
+							12
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							[1,2,[3,4,5],0,[6,[8,7],9,10]]
+							</td>
+							<td style = "white-space: nowrap">
+							55
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							[[1],'a',[[3,'4',5]],[6,[7,8],9],3,'ab']
+							</td>
+							<td style = "white-space: nowrap">
+							42
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							[['ab']]
+							</td>
+							<td style = "white-space: nowrap">
+							0
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							[]
+							</td>
+							<td style = "white-space: nowrap">
+							0
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
