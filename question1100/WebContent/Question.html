@@ -1,0 +1,65 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Quiz 2: <code>Remove The Element (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						Write a Python program that removes all occurences of an element from a list, modify other elements  and then prints this list. For the input, first read an integer <code>N</code> where <code>N>=0</code>, then read N more integers and store them in a list. Finally read one more integer <code>X</code>. You should remove all occurences of <code>X</code> from the list and multiply the remaining integers in the list with <code>X</code>. Then print the final list. <br>
+
+						We have already gave you the print statement at the end of the code (<code>print(final_list)</code>). So you shouldn't write any print statement. You should make necessary adjustments so that the <code>final_list</code> variable has the correct list to print.
+
+						If <code>N=0</code> or all the elements are removed, then you should print an empty list such as <code>[]</code>.
+
+					</p>
+
+					<p>
+						<b><i>Assumption:</i></b> You can assume that all the inputs will be proper. <br>
+						<b><i>Warning:</i></b> Do not print any additional/unnecessary things as output. Your outputs should exactly match with the test case outputs.
+					</p>
+
+					<b>Examples:</b> <br>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							4<br>9<br>7<br>7<br>10<br>7
+							</td>
+							<td style = "white-space: nowrap">
+							[63, 70]
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							7<br>5<br>20<br>15<br>20<br>25<br>50<br>20<br>20
+							</td>
+							<td style = "white-space: nowrap">
+							[100, 300, 500, 1000]
+							</td>
+						</tr>
+					</table>
+
+					<br>
+					<b>Explanation for the second input-output:<b><br>
+					Number of elements in the list is <code>N = 7</code>, then our initial list is: <code>initial-list = [5,20,15,20,25,50,20] </code>, finally <code>X = 20</code>.<br>
+					Delete <code>X</code> from the list (<code>[5,15,25,50]</code>) and multiply remaining elements with <code>X</code>: <code>[100, 300, 500, 1000]</code>.
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
