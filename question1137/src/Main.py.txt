@@ -1,0 +1,16 @@
+
+
+
+def power(b, e):
+    # DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+
+    # DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+
+
+input_base = float(input())
+input_exponent = int(input())
+
+print("{:.4f}".format(power(input_base, input_exponent)), end="")
+
