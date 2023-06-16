@@ -1,0 +1,13 @@
+
+number = int(input())
+
+# DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+
+# DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+        
+for i in range(10):
+    if i in dict_final:
+        print(i, '->', dict_final[i])
+

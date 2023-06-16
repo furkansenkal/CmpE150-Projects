@@ -1,0 +1,84 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Quiz 4: <code>Repeating Digits (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						Write a program that takes an integer number from the user and prints a dictionary. 
+					</p>
+					<p>
+						If the input number has more than 5 digits (if the input number is greater than 99999), then your final dictionary should have the digits of the input number as keys and the counts of those digits as values. You should print the digits and their counts in ascending order of digits.
+					</p>
+					<p>
+						If the input number has less than 6 digits (if the input number is less than 100000), then your final dictionary should have the most frequent digit as the key and its count as the value. So the final dictionary will have only one key-value pair. For this situation, you can assume that there will always be a unique most frequent digit.
+					</p>
+					<p>
+						We have already provided you with the input and printing part. In the printing part, we iterate through 0 to 9 and print the digit and its count to the console if the digit is in the dictionary. This printing part ensures that the output is printed in the ascending order of digits. So, you don't need to keep digits in ascending order in your dictionary. Note that in order for the printing part to print the results, your dictionary's keys must be integers. 
+					</p>
+
+					<b>Examples:</b> <br><br>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							135395
+							</td>
+							<td style = "white-space: nowrap">
+							1 -> 1<br>3 -> 2<br>5 -> 2<br>9 -> 1
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							0556245070754
+							</td>
+							<td style = "white-space: nowrap">
+							0 -> 2<br>2 -> 1<br>4 -> 2<br>5 -> 4<br>6 -> 1<br>7 -> 2 
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							12883
+							</td>
+							<td style = "white-space: nowrap">
+							8 -> 2
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							777
+							</td>
+							<td style = "white-space: nowrap">
+							7 -> 3
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							0535
+							</td>
+							<td style = "white-space: nowrap">
+							5 -> 2 
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
