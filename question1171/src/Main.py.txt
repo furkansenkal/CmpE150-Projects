@@ -1,0 +1,18 @@
+
+# DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+
+# DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+
+line1 = input()
+line2 = input()
+line3 = input()
+given_board = line1+'\n'+line2+'\n'+line3
+
+max_actions = int(input())
+
+solution = find_actions(given_board,max_actions)
+
+print(solution)
+

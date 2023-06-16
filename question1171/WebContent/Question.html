@@ -1,0 +1,78 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					CMPE 150 Final Exam
+				</h1>
+				<h2>
+					Question 3: <code>Tiles (100 points)</code>
+				</h2>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						<i> You are recommended to solve this question last. </i> <br><br>
+
+						Given a board configuration in a string and maximum number of actions that you can take, find the tile actions that bring the given board configuration to the target board, where <code>target_board = '123\n456\n789'</code>. You will implement <code>find_actions(given_board, max_actions)</code> function. Here are the guidelines:
+						<ul>
+							<li><code>given_board</code> is a string that contains 3x3 board with unique digit-tiles and a new-line at the end of each row such as <code>given_board = '416\n759\n283'</code>.</li>
+							<li><code>max_actions</code> correspond to the maximum length of the solution (sequence of actions).</li>
+							<li><code>solution</code> will be list of action strings.</li>
+							<li>action string should have the following form: <code>'move &lt;tile&gt; down'</code> or <code>'move &lt;tile&gt; right'</code>.</li>
+							<li>note that when a tile is moved down, the tile below will be automatically moved up.</li>
+							<li>similarly when a tile is moved right, the tile on the right will be automatically moved left.</li>
+						</ul>	
+					</p>
+					<p>
+						Submit your code with clear and understandable comments even though your code does not work - it will be possible to get partial grade from this question if your instructor finds out you were in the right direction.
+					</p>
+					<p>
+						We have already provided you with the input-output part. Please do not write the input-output part again.
+					</p>
+
+					<b>Examples:</b> <br><br>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							213<br>456<br>789<br>1
+							</td>
+							<td style = "white-space: nowrap">
+							['move 2 right']
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							416<br>759<br>283<br>5
+							</td>
+							<td style = "white-space: nowrap">
+							['move 6 down', 'move 9 down', 'move 2 right', 'move 4 down', 'move 7 down']
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							416<br>759<br>283<br>3
+							</td>
+							<td style = "white-space: nowrap">
+							[]
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
