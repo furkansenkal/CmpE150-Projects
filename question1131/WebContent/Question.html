@@ -1,0 +1,81 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Quiz 7: <code>Words and Numbers in a File (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						In this quiz you will read a word (string) from the user. You will search this word in 'dataset.txt' file which is provided inside src folder which is the same folder as your Main.py file. In 'dataset.txt' file there will be several lines and in each line there will be numbers and words separated by spaces. All numbers will be positive integers and all words will only consist of lowercase letters. We want you to find lines that contain the input word and print the summation of the numbers found in those lines. If the input word is not in 'dataset.txt', then print 0.
+					</p>
+					<p>
+						A word can be found on more than one line.  A word can be found more than one time on the same line. 
+					</p>
+					<p>
+						We have already provided you with the input part. Please do not write the input part again.
+					</p>
+
+					<b>Examples:</b> <br><br>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							comprehensive
+							</td>
+							<td style = "white-space: nowrap">
+							8180
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							holiday
+							</td>
+							<td style = "white-space: nowrap">
+							3283
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							paradox
+							</td>
+							<td style = "white-space: nowrap">
+							11406
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							hello
+							</td>
+							<td style = "white-space: nowrap">
+							0
+							</td>
+						</tr>
+					</table>
+
+					<p>
+					<i>Explanation for the input 'comprehensive':</i> The word 'comprehensive' occurs on 4 different lines in the dataset.txt file, line 11-24-31-32. Summation of the numbers on those lines is 8180.
+					</p>
+
+					<p>
+					<i>Explanation for the input 'holiday':</i> The word 'holiday' occurs on 1 line in the dataset.txt file, line 21. Summation of the numbers on line 21 is 3283.
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
