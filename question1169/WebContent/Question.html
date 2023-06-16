@@ -1,0 +1,93 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Question 1: <br><br>
+					<code>Find Pairs (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						You are expected to implement the function <code>find_pairs(lst,x)</code> which takes a list <code>lst</code> and an integer <code>x</code>.<br>
+						This function is supposed to find all pairs in the list whose sum is equal to <code>x</code> and print them as tuples. A couple of rules: <br>
+						<ul>
+							<li>A number can not be a pair with itself (itself meaning the number at the same index, check examples 3 and 4). Pairs should consist of different numbers (different meaning at different indexes).</li>
+							<li>You can print either (a,b) or (b,a) for one pair (check example 1).</li>
+							<li>You should print all the pairs even if they are the same (same meaning same value, not same index). (check example 2).</li>
+						</ul>
+						You can see that input taking part is handled for you. There are two inputs, the first one will always be an integer which is the desired sum. The second one will always be a list of integers which you will find the pairs on.
+					</p>
+					<p>
+						Check the examples for further clarification. Keep in mind that we will be grading your code not just based on these examples, but other cases as well,	so try to write code which can handle all possible cases.
+					</p>
+					<p>
+						<b>Hint:</b> If you start from the beginning of the list, your outputs should match ours (please do). If not, as long as you get all the pairs, you will get full points (we will handle it in objection).
+					</p>
+					<p>
+						<b>Warning:</b> You are not allowed to use any imports and any topics that haven't been covered this semester.
+					</p>
+					<p>
+
+					<b>Examples:</b>
+					<table>
+						<tr class="header">
+							<td>INPUT</td>
+							<td>OUTPUT</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							7<br>
+							[2, 4, 3, 5, 7, 8, 9]
+							</td>
+							<td style = "white-space: nowrap">
+							(2, 5)<br>
+							(4, 3)
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							7<br>
+							[2, 4, 3, 5, 6, -2, 4, 7, 8, 9]
+							</td>
+							<td style = "white-space: nowrap">
+							(2, 5)<br>
+							(4, 3)<br>
+							(3, 4)<br>
+							(-2, 9)
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							8<br>
+							[4,4]
+							</td>
+							<td style = "white-space: nowrap">
+							(4,4)
+							</td>
+						</tr>
+						<tr>
+							<td style = "white-space: nowrap">
+							8<br>
+							[4]
+							</td>
+							<td style = "white-space: nowrap">
+
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
